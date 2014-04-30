@@ -52,6 +52,11 @@ ENV["RAILS_ENV"] ||= 'test'
   end
 
 
+# class ActiveSupport::TestCase
+# 	include Devise::TestHelpers
+# end
+#
+
 end
 
 Spork.each_run do
